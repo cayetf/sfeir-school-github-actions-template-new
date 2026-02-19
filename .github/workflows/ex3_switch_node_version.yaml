@@ -17,6 +17,6 @@ jobs:
       - name: run test
         shell: bash
         run: |
-          nove -v
+          node -v
           npm install
           npm test
