@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-npm-test:
+  toto:
     uses: ./.github/workflows/ex4-reusable.yaml
     with:
       node-version: '24'
