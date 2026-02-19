@@ -6,7 +6,7 @@ jobs:
   run-npm-install:
     strategy:
       matrix:
-        node: [ 20, lts ]
+        node: [ 20, "lts/*" ]
         os: [ ubuntu-latest, ubuntu-22.04 ]
     runs-on: ${{ matrix.os }}
     steps:
